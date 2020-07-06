@@ -9,4 +9,4 @@ numbers = os.environ["TEXTNOW_NUMBER"]
 msg = os.environ["TEXTNOW_MSG"]
 text = textnow_sms.Textnow(username, password, numbers, msg)
 
-text.send_text()
+text.send_text() 
